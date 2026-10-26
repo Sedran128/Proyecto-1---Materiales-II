@@ -10,7 +10,7 @@ st.title("Análisis de Aleaciones MPEA para Descensores de Cañonismo")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('MPEA_dataset - MPEA_dataset.csv')
+    df = pd.read_csv('MPEA_dataset.csv')
     cols_map = {
         'FORMULA': 'Formula',
         'PROPERTY: Microstructure': 'Microestructura',
